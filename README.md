@@ -40,7 +40,7 @@ The below commands will build the project and output single, portable executable
 ### Build for Windows
 ```dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true```
 
-### Build for Linux
+### Build for Linux 
 ```dotnet publish -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true```
 
 ------------------
